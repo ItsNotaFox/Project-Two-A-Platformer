@@ -1,0 +1,24 @@
+.background    { background: linear-gradient(#00FFFF, #0000FF);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: linear-gradient(#FF0000, #000000); }
+.wall          { background-image: url('http://i17.photobucket.com/albums/b58/PyroSugar/multi-colored-gravel-background-matte_zps51nzu9uw.jpg');}
+.grass         { background: linear-gradient(#00ffcc, #006400); }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url('http://i17.photobucket.com/albums/b58/PyroSugar/ef0a18ad-31df-4d06-938d-560fe3d27499_zpsgfpcmvsm.jpg'); 
+		  background-position: center;
+		  width: 18px;
+	      height: 18px;
+	      border-radius: 18px;
+	      -webkit-border-radius: 18px;
+	      -moz-border-radius: 18px;}
+.player { background-image: url('http://i17.photobucket.com/albums/b58/PyroSugar/781c7f75-6195-4c15-8c2d-9d604af2cc4b_zpspcfxcnfl.jpg');} 
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
